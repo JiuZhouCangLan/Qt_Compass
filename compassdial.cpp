@@ -65,7 +65,7 @@ void CompassDial::paintEvent(QPaintEvent *)
 
     // 处理disable状态
     if(!this->isEnabled()) {
-        painter.fillRect(this->rect(), QColor(0, 0, 0, 50));
+        painter.fillRect(rect, QColor(127, 127, 127, 127));
     }
 }
 
