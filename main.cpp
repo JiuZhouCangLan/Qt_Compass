@@ -47,9 +47,9 @@ int main(int argc, char *argv[])
             for(const QString& roleKey : ROLE_NAME_MAP.keys()) {
                 QString key(groupKey + "_" + roleKey);
                 if(baseColorSettings.contains(key)) {
-//                    palette.setColor(GROUP_NAME_MAP.value(groupKey),
-//                                     ROLE_NAME_MAP.value(roleKey),
-//                                     QColor(baseColorSettings.value(key).toString()));
+                    palette.setColor(GROUP_NAME_MAP.value(groupKey),
+                                     ROLE_NAME_MAP.value(roleKey),
+                                     QColor(baseColorSettings.value(key).toString()));
                 }
             }
         }
