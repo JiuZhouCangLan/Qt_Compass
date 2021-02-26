@@ -26,7 +26,7 @@ private:
     QSvgRenderer render;
     int indicatorSize = 10;
     int indicatorWidth = 0;
-    bool light = false;
+    bool lightColor = true;
 
     int valueFromPoint(const QPoint &p) const;
     int bound(int val) const;
