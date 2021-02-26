@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/compass.svg</file>
+        <file>res/indicator.svg</file>
+        <file>res/Darkstyle.ini</file>
+        <file>res/compass_black.svg</file>
+        <file>res/indicator_black.svg</file>
+    </qresource>
+</RCC>
